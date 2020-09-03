@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+.container {
+  position: relative;
+  border-radius: 5px;
+  background-color: orange;
+  padding: 20px 550px 300px 100px;
+  width: 100%;
+} 
+* {box-sizing: border-box;}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 50%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 20px 30px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<form action="/action_page.php" style="max-width:500px;margin:auto">
+  <h2>Register Form</h2>
+  <div class="input-container">
+    
+    <input class="input-field" type="text" placeholder="Student Name" name="stdname" required>
+  </div>
+<div class="input-container">
+    
+    <input class="input-field" type="text" placeholder="RegNo" name="" required>
+  </div>
+<div class="input-container">
+    
+    <input class="input-field" type="text" name="contact" placeholder="Contact Number" pattern="[0-9]{10}" required>
+  </div>
+<div class="input-container">
+    
+    <input class="input-field" type="text" name="email" placeholder="Personal Email Address" required>
+  </div>
+<div class="input-container">
+    <select class="input-field" name="plan">
+            <option value="Campus placement">Campus Placement</option>
+            <option value="Off-campus placement">Off-Campus Placement</option>
+            <option value="higher Studies">Higher Education</option>
+            <option value="other">Other</option>
+          </select>
+  
+  </div>
+<div class<div class="input-container">
+    
+    <input class="input-field" type="text" name="company" placeholder="University/ Company Name"/>
+  </div>
+
+    <div class="input-container">
+    
+    <input class="input-field" type="text" name="package" placeholder="Specialisation/ Package (LPA)"/>
+  </div>
+<div class="input-container">
+    
+    <input class="input-field" type="text" name="location" placeholder="Location"/>
+  </div>
+<div class="input-container">
+    
+     <input type="file" name="image" value="Upload image" /></br></br>
+	 </div>
+<div>
+  <button type="submit" class="btn">Register</button>
+</div>
+	
+                       <p> Have already an account ?
+					   
+					   <a href="C:/Users/user/Desktop/alumini web/html/alulog.html"><h4>Loggin</h4></a>
+               					
+</p>
+					
+
+					
+</form>
+
+</body>
+</html>
